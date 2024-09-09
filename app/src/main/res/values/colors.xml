@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Night">#131515</color>
+    <color name="Jet">#2B2C28</color>
+    <color name="PersianGreen">#339989</color>
+    <color name="TiffanyBlue">#7DE2D1</color>
+    <color name="Snow">#FFFAFB</color>
+    <color name="DavysGray">#4B4B48</color>
+</resources>
