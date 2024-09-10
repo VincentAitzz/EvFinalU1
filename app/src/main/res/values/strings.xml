@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">EvFinalU1</string>
     <string name="bienvenida">Welcome User</string>
+
+    <string-array name="colores_array">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Tiffany</item>
+    </string-array>
 </resources>

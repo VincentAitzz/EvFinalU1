@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog"
+    android:elevation="8dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Título"
+        android:textColor="@color/Night"
+        android:textColorHint="@color/PersianGreen"
+        android:textColorLink="@color/TiffanyBlue" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Descripción"
+        android:textColor="@color/Night"
+        android:textColorHint="@color/PersianGreen"
+        android:textColorLink="@color/TiffanyBlue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Seleccionar Fecha"
+        android:textColor="@color/Night"
+        android:textColorHint="@color/PersianGreen"
+        android:textColorLink="@color/TiffanyBlue" />
+
+    <Button
+        android:id="@+id/buttonSeleccionarFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text="Seleccionar Fecha"
+        android:textColor="@color/Night"/>
+
+    <TextView
+        android:id="@+id/textViewFechaSeleccionada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Seleccionar Hora"
+        android:textColor="@color/Night"
+        android:textColorHint="@color/PersianGreen"
+        android:textColorLink="@color/TiffanyBlue" />
+
+    <Button
+        android:id="@+id/buttonSeleccionarHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:backgroundTint="#007DE2D1"
+        android:text="Seleccionar Hora"
+        android:textColor="@color/Night"
+        app:rippleColor="@color/TiffanyBlue" />
+
+    <TextView
+        android:id="@+id/textViewHoraSeleccionada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/TiffanyBlue"
+        android:text="Guardar Nota"
+        android:textColor="@color/Night"
+        android:textColorLink="@color/TiffanyBlue" />
+</LinearLayout>

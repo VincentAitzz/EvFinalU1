@@ -8,4 +8,12 @@
     <color name="TiffanyBlue">#7DE2D1</color>
     <color name="Snow">#FFFAFB</color>
     <color name="DavysGray">#4B4B48</color>
+
+    <color name="nota_red">#e27d7d</color>
+    <color name="nota_blue">#7d91e2</color>
+    <color name="nota_yellow">#e2dd7d</color>
+    <color name="nota_green">#86e27d</color>
+    <color name="nota_cyan">#7de2da</color>
+    <color name="nota_purple">#d77de2</color>
+
 </resources>
